@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.build/
+.dist/
+
+# Virtual envs
+venv/
+.env/
+.tarot-venv/
+tarot-venv/
+
+# Secrets
+.env
+*.key
+
+# Model artifacts and large files
+russian-bert-tarot-classifier/
+results/
+logs/
+*.safetensors
+*.bin
+*.pt
+
+# OS
+.DS_Store 
